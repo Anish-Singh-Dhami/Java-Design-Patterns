@@ -1,6 +1,6 @@
-package patterns.structural.singleton;
+package patterns.creational.singleton;
 
-import org.anish.patterns.structural.singleton.EagerSingleton;
+import org.anish.patterns.creational.singleton.EagerSingleton;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

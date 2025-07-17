@@ -1,4 +1,4 @@
-package org.anish.patterns.structural.singleton;
+package org.anish.patterns.creational.singleton;
 
 public class ThreadSafeSingleton {
     private static ThreadSafeSingleton instance;
