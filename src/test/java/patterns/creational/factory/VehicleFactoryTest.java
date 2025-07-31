@@ -1,15 +1,22 @@
 package patterns.creational.factory;
 
-import org.anish.patterns.creational.factory.*;
+import org.anish.patterns.creational.factory.vehicle.Bike;
+import org.anish.patterns.creational.factory.vehicle_factory.BikeFactory;
+import org.anish.patterns.creational.factory.vehicle.Car;
+import org.anish.patterns.creational.factory.vehicle.Truck;
+import org.anish.patterns.creational.factory.vehicle.IVehicle;
+import org.anish.patterns.creational.factory.vehicle_factory.CarFactory;
+import org.anish.patterns.creational.factory.vehicle_factory.TruckFactory;
+import org.anish.patterns.creational.factory.vehicle_factory.VehicleFactory;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.anish.patterns.creational.factory.Bike.BIKE_STARTED_STRING;
-import static org.anish.patterns.creational.factory.Bike.BIKE_STOPPED_STRING;
-import static org.anish.patterns.creational.factory.Car.CAR_STARTED_STRING;
-import static org.anish.patterns.creational.factory.Car.CAR_STOPPED_STRING;
-import static org.anish.patterns.creational.factory.Truck.TRUCK_STARTED_STRING;
-import static org.anish.patterns.creational.factory.Truck.TRUCK_STOPPED_STRING;
+import static org.anish.patterns.creational.factory.vehicle.Bike.BIKE_STARTED_STRING;
+import static org.anish.patterns.creational.factory.vehicle.Bike.BIKE_STOPPED_STRING;
+import static org.anish.patterns.creational.factory.vehicle.Car.CAR_STARTED_STRING;
+import static org.anish.patterns.creational.factory.vehicle.Car.CAR_STOPPED_STRING;
+import static org.anish.patterns.creational.factory.vehicle.Truck.TRUCK_STARTED_STRING;
+import static org.anish.patterns.creational.factory.vehicle.Truck.TRUCK_STOPPED_STRING;
 
 public class VehicleFactoryTest {
     @Test

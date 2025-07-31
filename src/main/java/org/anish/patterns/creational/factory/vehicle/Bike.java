@@ -1,4 +1,4 @@
-package org.anish.patterns.creational.factory;
+package org.anish.patterns.creational.factory.vehicle;
 
 public class Bike implements IVehicle {
     public static final String BIKE_STARTED_STRING = "Bike Started!!";

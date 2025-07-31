@@ -1,6 +1,6 @@
-package org.anish.patterns.creational.factory;
+package org.anish.patterns.creational.factory.vehicle;
 
-public class Car implements IVehicle{
+public class Car implements IVehicle {
     public static final String CAR_STARTED_STRING = "Car Started!!";
     public static final String CAR_STOPPED_STRING = "Car Stopped!!";
     @Override

@@ -1,4 +1,4 @@
-package org.anish.patterns.creational.factory;
+package org.anish.patterns.creational.factory.vehicle;
 
 public interface IVehicle {
     String  start();
