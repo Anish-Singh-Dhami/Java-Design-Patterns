@@ -9,13 +9,8 @@ import org.anish.patterns.creational.abstract_factory.car.PetrolCar;
 import org.anish.patterns.creational.abstract_factory.vehicle_abstract_factory.ElectricVehicleFactory;
 import org.anish.patterns.creational.abstract_factory.vehicle_abstract_factory.IVehicleFactory;
 import org.anish.patterns.creational.abstract_factory.vehicle_abstract_factory.PetrolVehicleFactory;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
 
 import static org.anish.patterns.creational.abstract_factory.bike.ElectricBike.ELECTRIC_BIKE_RIDE;
 import static org.anish.patterns.creational.abstract_factory.bike.PetrolBike.PETROL_BIKE_RIDE;

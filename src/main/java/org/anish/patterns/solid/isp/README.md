@@ -1,0 +1,3 @@
+### Interface Segregation Principle:
+- Multiple client specific interface are better than one general purpose interface.
+- Client should not be forced to implement methods they don't need.
