@@ -40,3 +40,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### UnderDeveloped Files / Future Files ###
+src/main/java/org/anish/examples/**
